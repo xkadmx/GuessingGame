@@ -39,6 +39,7 @@
         android:importantForAutofill="no"
         android:inputType="number"
         android:labelFor="@id/txtGuess"
+        android:textAlignment="center"
         tools:targetApi="o" />
 
     <Button
@@ -51,10 +52,11 @@
 
     <TextView
         android:id="@+id/lblOutput"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="151dp"
-        android:text="@string/enter_a_number_and_click_guess" />
+        android:text="@string/enter_a_number_and_click_guess"
+        android:textAlignment="center" />
 </RelativeLayout>
